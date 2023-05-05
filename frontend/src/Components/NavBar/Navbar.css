@@ -1,0 +1,114 @@
+.navbar{
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 8%;
+  background: transparent;;
+  transition: all 0.5s ease;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+.icon{
+  font-size: 28px;
+  margin-right: 4px;
+}
+
+.logo span{
+  color: var(--text-color);
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.nav-links{
+  display: flex;
+}
+
+.nav-links a{
+  color: var(--text-color);
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0 24px;
+  transition: all 0.5s ease;
+}
+
+.nav-links a:hover{
+  color: var(--primary-color);
+}
+
+.nav-links a:active{
+  color: var(--primary-color);
+}
+
+.sign-up{
+  display: flex;
+  align-items: center;
+}
+
+.sign-up a{
+  margin-right: 16px;
+  margin-left: 8px;
+  color: var(--text-color);
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: all 0.5s ease;
+}
+
+.sign-up a:hover{
+  color: var(--primary-color);
+}
+
+#login-btn{
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: all 0.5s ease;
+}
+
+#login-btn:hover{
+  background-color: #2e2e2e;
+  transform: translateY(4px);
+}
+
+#get-started-btn{
+  background: var(--primary-color);
+  color: #2e2e2e;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: all 0.5s ease;
+}
+
+#get-started-btn:hover{
+  background: #2e2e2e;
+  color: var(--primary-color);
+  transform: translateY(4px);
+}
+
+.user-click{
+  display: flex;
+  align-items: center;
+  gap: 0 0.6rem;
+  cursor: pointer;
+}
+
+.user-click:hover{
+  color: var(--primary-color);
+}
+
+.user-icon{
+  font-size: 1.2rem;
+}
+
+.logged-user-name{
+  color: var(--text-color);
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+

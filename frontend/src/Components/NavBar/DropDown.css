@@ -1,0 +1,15 @@
+.drop-down{
+    position: absolute;
+    top: 4rem;
+    right: 6rem;
+    width: 200px;
+    background-color: rgb(83, 187, 83);
+    border-radius: 5px;
+    z-index: 100;
+    color: #ccc;
+    padding: 1rem;
+}
+
+.drop-down a{
+  color: #ccc;
+}

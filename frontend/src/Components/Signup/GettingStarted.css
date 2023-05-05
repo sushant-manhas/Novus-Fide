@@ -1,0 +1,100 @@
+.getting-start-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.getting-start-text{
+  line-height: 1.2;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+
+.getting-start-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#fname,#lname,#getting-start-email,#getting-start-pwd{
+  background: #3e3e3e;
+  color: var(--text-color);
+  padding: 0 1rem;
+  margin-top: 1.25rem;
+  height: 3rem;
+  max-width: 100%;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  border: none;
+  width: 30rem;
+  transition: outline 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0ms
+}
+
+#fname:focus,#lname:focus,#getting-start-email:focus,#getting-start-pwd:focus{
+  outline: solid 1px var(--primary-color);
+  border: none;
+}
+
+#getting-start-email-error,#getting-start-password-error,#getting-start-generic-error{
+  margin: 0;
+  padding: 0;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: rgb(255,12,12);
+}
+
+/* #getting-start-password-error{
+  display: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: rgb(255,12,12);
+} */
+
+.getting-start-form-show-password{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 1.25rem;
+}
+
+#getting-start-show-pwd-checkbox{
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 1rem;
+  border: none;
+  margin-right: 0.5rem;
+}
+
+.get-started-line{
+  width: 30rem;
+  height: 1px;
+  margin: 1.25rem 0;
+  background: var(--text-color);
+  border: none;
+}
+
+.get-started-button{
+  background: var(--primary-color);
+  color: #2e2e2e;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: all 0.5s ease;
+  border: none;
+  font-size: 1.25rem;
+  font-weight: 500;
+  transition: all 0.5s ease;
+}
+
+.get-started-button:hover{
+  background: #2e2e2e;
+  color: var(--primary-color);
+}

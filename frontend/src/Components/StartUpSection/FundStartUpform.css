@@ -1,0 +1,120 @@
+.container {
+  margin-top:4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  padding: 0 1rem;
+  margin-bottom: 8rem;
+}
+
+.entry {
+  margin-top: 20px;
+}
+
+input[type=submit] {
+  background: var(--primary-color);
+  color: #2e2e2e;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: all 0.5s ease;
+  border: none;
+  font-size: 1.25rem;
+  font-weight: 500;
+  width: 500px;
+}
+
+input[type=submit]:hover {
+  background: #2e2e2e;
+  color: var(--primary-color);
+}
+
+#fname,
+#company_mail,
+#founder_linkedin,
+#reg_company_name,
+#company_linkedin,
+#website,
+#revenue,
+#team_size,
+#pitch {
+  background: #3e3e3e;
+  color: var(--text-color);
+  padding: 0 1rem;
+  margin-top: 0.5rem;
+  height: 3rem;
+  max-width: 100%;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  border: none;
+  width: 30rem;
+  transition: outline 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0ms
+}
+
+#prev_fundraises,
+#product,
+#traction,
+#why_raise,
+#why_novus,
+#existing_commitments {
+  background: #3e3e3e;
+  color: var(--text-color);
+  padding: 0 1rem;
+  margin-top: 1.25rem;
+  max-width: 100%;
+  font-size: 1rem;
+  align-items: center;
+  border-radius: 8px;
+  border: none;
+  width: 30rem;
+  transition: outline 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0ms
+}
+
+#fname:focus,
+#company_mail:focus,
+#founder_linkedin:focus,
+#reg_company_name:focus,
+#company_linkedin:focus,
+#website:focus,
+#prev_fundraises:focus,
+#product:focus,
+#traction:focus,
+#revenue:focus,
+#team_size:focus,
+#why_raise:focus,
+#why_novus:focus,
+#existing_commitments:focus,
+#pitch:focus {
+  outline: solid 1px var(--primary-color);
+  border: none;
+}
+
+label{
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.start-up-fund-hr{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: solid 1px var(--primary-color);
+  width: 500px;
+  margin: auto;
+}
+
+.app-app{
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-color);
+  margin: 1rem;
+}

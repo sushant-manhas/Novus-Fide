@@ -1,0 +1,31 @@
+.subscribe{
+  padding: 0 8%;
+}
+
+.subscribe-title{
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.subscribe-hr{
+  width: 80%;
+  margin: 1rem 0;
+  border: 1px solid #29fe53;
+}
+
+.class-heading{
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.class-cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0 5rem;
+}
+
+.second-class{
+  margin-top: 4rem;
+}
